@@ -82,6 +82,11 @@ website: https://yusufakcesme.com
 	src: url(../fonts/coco-small-regular.ttf) format("truetype");
 }
 
+@font-face {
+	font-family: sofiapro-light;
+	src: url(../fonts/sofiapro-light.otf) format("truetype");
+}
+
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -109,9 +114,9 @@ header .logo {
 }
 
 header .logo h1 {
-	font-size: 40px;
+	font-size: 32px;
 	color: #fff;
-	font-family: 'coco-light';
+	font-family: 'sofiapro-light';
 	letter-spacing: 1px;
 }
 
@@ -722,9 +727,9 @@ footer .footer-top .top-left {
 }
 
 footer .footer-top .top-left h1 {
-	font-size: 40px;
+	font-size: 32px;
 	color: #fff;
-	font-family: 'coco-light';
+	font-family: 'sofiapro-light';
 	letter-spacing: 1px;
 	margin-bottom: 30px;
 }
