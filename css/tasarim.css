@@ -1,0 +1,106 @@
+
+.tabs .dropdown-tab p {
+	font-family: 'nunito-light';
+}
+
+section.design-competition-tasarim {
+	width: 100%;
+	height: auto;
+}
+
+
+section.design-competition-tasarim .card-container-tasarim {
+	width: 90%;
+	height: auto;
+	margin: 30px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+section.design-competition-tasarim .card-container-tasarim .card-tasarim {
+	width: 320px;
+	margin: 10px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section.design-competition-tasarim .card-container-tasarim .card-tasarim .card-img-tasarim {
+	width: 320px;
+	height: 250px;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.16);
+}
+
+section.design-competition-tasarim .card-container-tasarim .card-tasarim .card-img-tasarim img {
+	width: 320px;
+	height: 250px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.16);
+	border-radius: 5px;
+}
+
+section.design-competition-tasarim .card-container-tasarim .card-tasarim a {
+	width: 110px;
+	height: 40px;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #AA7C13;
+	font-weight: var(--bold);
+	font-size: 17px;
+	border: 2px solid #AA7C13;
+	margin-top: 20px;
+}
+
+section.design-competition-tasarim .card-container-tasarim .card-tasarim a:hover {
+	transition: .3s;
+	background-color: #AA7C13;
+	color: #fff;
+}
+
+
+section.design-competition-tasarim .card-container-tasarim .card-tasarim .card-img-tasarim .card-img-overlay-tasarim {
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	bottom: 0;
+	background: -moz-linear-gradient(bottom,  rgba(0,0,0,0.76) 0%, rgba(125,185,232,0) 100%);
+	background: -webkit-linear-gradient(bottom,  rgba(0,0,0,0.76) 0%,rgba(125,185,232,0) 100%);
+	background: linear-gradient(to top,  rgba(0,0,0,0.76) 0%,rgba(125,185,232,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db000000', endColorstr='#007db9e8',GradientType=0 );
+	display: none;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 10px;
+}
+
+section.design-competition-tasarim .card-container-tasarim .card-tasarim .card-img-tasarim:hover .card-img-overlay-tasarim {
+	display: flex;
+	padding-left: 26px;
+	padding-bottom: 16px;
+}
+
+
+section.design-competition-tasarim .card-container-tasarim .card-tasarim .card-img-tasarim .card-img-overlay-tasarim span {
+	font-size: 12px;
+	font-family: 'coco-regular';
+	color: #FFD982;
+}
+
+section.design-competition-tasarim .card-container-tasarim .card-tasarim .card-img-tasarim .card-img-overlay-tasarim p {
+	font-size: 16px;
+	font-family: 'nunito-regular';
+	color: #fff;
+}
+
+section.design-competition-tasarim .card-container-tasarim .card-tasarim .card-img-tasarim .card-img-overlay-tasarim p > b {
+	font-size: 16px;
+	font-weight: var(--medium);
+	color: #FFD982;
+}
