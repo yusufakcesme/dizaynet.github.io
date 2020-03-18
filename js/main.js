@@ -31,6 +31,7 @@ nav_btn.forEach(item => item.addEventListener('click', activeButton));
 
 var modal = document.getElementById('id01');
 var modal2 = document.getElementById('id02');
+var modal_search = document.getElementById('id03');
 
 window.onclick = function(event) {
 	if (event.target == modal) {
@@ -38,6 +39,11 @@ window.onclick = function(event) {
 		modal2.style.display = "none";
 		console.log(event.target);
 	} else if (event.target == modal2) {
+		modal2.style.display = "none";
+		modal.style.display = "none";
+	}
+	else if (event.target == modal_search) {
+		modal_search.style.display = "none";
 		modal2.style.display = "none";
 		modal.style.display = "none";
 	}
@@ -53,6 +59,19 @@ function openRegister() {
 	document.getElementById('id02').style.display='block';
 }
 
+function openSearch() {
+	document.getElementById('id03').style.display='flex';
+}
+
+
+function openMobileMenu() {
+	var mobile_menu_cont = document.getElementById('mobile-menu-cont');
+		mobile_menu_cont.style.transform = "translateX(0%)";
+}
+function closeMobileMenu() {
+	var mobile_menu_cont = document.getElementById('mobile-menu-cont');
+		mobile_menu_cont.style.transform = "translateX(-100%)";
+}
 
 /* read more comment */ 
 

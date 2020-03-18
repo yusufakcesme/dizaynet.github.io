@@ -11,12 +11,15 @@
 <body>
 
 	<header>
+		<div onclick="openMobileMenu()" class="hamburger-menu">
+			<button><i class="fa fa-bars"></i></button>
+		</div>
 		<div class="logo">
 			<h1>dizay<span>n</span>et</h1>
 		</div>
 
-		<div class="hamburger-menu">
-			<button><i class="fa fa-bars"></i></button>
+		<div onclick="openSearch()" class="mobile-search">
+			<button><i class="fa fa-search"></i></button>
 		</div>
 		<div class="search-bar">
 			<button><i class="fa fa-search"></i></button>
@@ -36,6 +39,8 @@
 		</div>
 
 	</header>
+
+
 
 
 
@@ -317,13 +322,21 @@
 				Dizaynet mimarlık, iç tasarım, ürün tasarımı, dekorasyon ve peyzaj alanında kullanıcıları profesyoneller ile buluşturan çevrimiçi bir platformdur. Projelerinizde size yardımcı olacak nitelikli tasarım uzmanlarını bulmanıza ve projelerinizi 
 				hayata geçirmenize olanak tanır.
 			</p>
-			<div class="icons">
+			<div class="app-badges">
+				<a href="#!" class="apple">
+					<img src="images/appstore.svg" width="180px" height="54px">
+				</a>
+				<a href="#!" class="google-play">
+					<img src="images/googleplay.png" width="180px" height="54px">
+				</a>
+			</div>
+			<!--<div class="icons">
 				<a href="#"><i class="fab fa-facebook-square"></i></a>
 				<a href="#"><i class="fab fa-behance"></i></a>
 				<a href="#"><i class="fab fa-instagram"></i></a>
 				<a href="#"><i class="fab fa-twitter"></i></a>
 				<a href="#"><i class="fab fa-linkedin"></i></a>
-			</div>
+			</div>-->
 		</div>
 
 		<div class="links">
@@ -347,24 +360,29 @@
 		</div>
 
 		<div class="footer-form">
-			<img src="images/fly.png">
-			<h3>DİZAYNET TASARIM DÜNYASINA KATIL!</h3>
-			<p>En yeni tasarım fikirleri, yaratıcı profesyoneller ve <br> daha fazlası için...
+			<h3>Bize Ulaşın</h3>
+			<p>Email: support@domain.com <br>
+				Phone: 1 (00) 832 2342
 			</p>
+			<div class="icons">
+				<a href="#"><i class="fab fa-facebook-square"></i></a>
+				<a href="#"><i class="fab fa-behance"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></sa>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+				</div>
+			</div>
 
-			<input type="text" name="" placeholder="E-posta adresinizi giriniz">
 		</div>
 
-	</div>
-
-	<div class="footer-bottom">
-		<p>© 2020 DİZAYNET. Tüm hakları saklıdır.</p>
-		<div class="bottom-links">
+		<div class="footer-bottom">
+			<p>© 2020 DİZAYNET. Tüm hakları saklıdır.</p>
+		<!--<div class="bottom-links">
 			<a href="#!">Üyelik Sözleşmesi</a>
 			<a href="#!">Destek</a>
 			<a href="#!">Şartlar ve Koşullar</a>
 			<a href="#!">Sıkça Sorulan Sorular</a>
-		</div>
+		</div>-->
 	</div>
 </footer>
 
@@ -375,6 +393,33 @@
 	<div id="login-overlay" class="login-overlay"></div>
 	<div id="login-box" class="login-box"></div>
 </div>-->
+
+
+
+<div id="id03" class="mobile-search-modal">
+	<form class="search-modal">
+		<input type="text" name="" placeholder="Tasarım fikir bulun..">
+		<button><i class="fa fa-search"></i></button>
+	</form>
+</div>
+
+
+
+
+<div class="mobile-menu-cont" id="mobile-menu-cont">
+	<div class="mobil-login">
+		<a onclick="openLogin()">Giriş Yap</a>
+		<button onclick="closeMobileMenu()"><i class="fa fa-times"></i></button>
+	</div>
+	<div class="mobile-menu-nav">
+		<a href="tasarim.html"><i class="fa fa-chevron-right"></i> DİZAYN</a>
+		<a href="profesyoneller"><i class="fa fa-chevron-right"></i> PROFESYONELLER</a>
+		<a href="yarisma.html"><i class="fa fa-chevron-right"></i> YARIŞMALAR</a>
+		<a href="blog.html"><i class="fa fa-chevron-right"></i> BLOG</a>
+	</div>
+</div>
+
+
 
 
 
