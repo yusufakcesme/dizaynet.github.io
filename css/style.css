@@ -113,14 +113,14 @@ header {
 header .logo {
 }
 
-header .logo h1 {
+header .logo h1 a {
 	font-size: 32px;
 	color: #fff;
 	font-family: 'sofiapro-light';
 	letter-spacing: 1px;
 }
 
-header .logo h1 > span {
+header .logo h1 a > span {
 	color: #FFD982;
 }
 
@@ -1446,10 +1446,6 @@ label.login-container {
 		background-color: #272726;
 		display: flex;
 		align-items: center;
-	}
-
-	header .logo {
-		margin-bottom: 5px;
 	}
 
 	header .search-bar {
