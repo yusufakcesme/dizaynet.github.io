@@ -1425,6 +1425,11 @@ label.login-container {
 
 @media only screen and (max-width: 1250px) {
 
+	.blog-articles {
+		justify-content: center;
+	}
+
+
 	header .hamburger-menu button {
 		font-size: 30px;
 		color: #fff;
@@ -1686,6 +1691,7 @@ label.login-container {
 }
 
 @media only screen and (max-width: 450px) {
+
 	/* Modal Content/Box */
 	.modal-content {
 		background-color: #f6f6f6;
