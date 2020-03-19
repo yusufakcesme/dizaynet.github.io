@@ -16,7 +16,7 @@
 .blog-articles {
 	max-width: 82%;
 	height: auto;	
-	margin: 50px auto;
+	margin: 50px auto 20px auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -129,6 +129,33 @@
 		color: #AA7C13;
 		transition: .3s;
 	}
+
+
+	.pagination {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0px 0 50px 0;
+	}
+
+	.pagination a {
+		color: black;
+		float: left;
+		width: 30px;
+		height: 30px;
+		text-decoration: none;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.pagination a.active {
+		background-color: #AA7C13;
+		color: white;
+	}
+
+
 
 	@media only screen and (max-width: 920px) {
 		.blog-articles {

@@ -15,6 +15,24 @@ function openDrop(e) {
 }
 
 */
+var filter_btn = document.querySelectorAll('.filter-button');
+var filter_modal_all = document.querySelectorAll('.filter-pop');
+
+function activeFilter() {
+	removeFilter();
+	var filter_modal = this.parentNode.childNodes[3];
+	filter_modal.style.display = "block";
+}
+function removeFilter() {
+	filter_modal_all.forEach(item => item.style.display = "none");
+}
+filter_btn.forEach(item => item.addEventListener('click', activeFilter));
+
+
+
+
+
+
 
 
 var nav_btn = document.querySelectorAll('.nav_btn');

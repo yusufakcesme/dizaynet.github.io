@@ -729,7 +729,9 @@ footer .footer-top .top-left {
 footer .footer-top .top-left .app-badges {
 	display: flex;
 	align-items: center;
-	margin-left: -12px;
+}
+.apple {
+	margin-right: 12px;
 }
 
 footer .footer-top .top-left h1 {
@@ -769,7 +771,7 @@ footer .footer-top .kesfet {
 
 footer .footer-top .kesfet > h2 {
 	margin-bottom: 30px;
-	color: #FFD982;
+	color: #fff;
 	font-family: 'nunito-bold';
 }
 
@@ -788,7 +790,7 @@ footer .footer-top .bilgi {
 
 footer .footer-top .bilgi > h2 {	
 	margin-bottom: 30px;
-	color: #FFD982;
+	color: #fff;
 	font-family: 'nunito-bold';
 }
 
@@ -813,7 +815,7 @@ footer .footer-top .footer-form img {
 footer .footer-top .footer-form h3 {
 	margin-bottom: 17px;
 	font-family: 'nunito-regular';
-	color: #FFD982;
+	color: #fff;
 }
 
 footer .footer-top .footer-form p {
