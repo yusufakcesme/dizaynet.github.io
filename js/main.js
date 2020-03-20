@@ -1,20 +1,4 @@
 
-/*
-function openDrop(e) {
-	var item = e.childNodes[3];
-
-	if (item.style.opacity === "1" && item.style.pointerEvents === "all") {
-		item.style.opacity = "0";
-		item.style.pointerEvents = "none";
-	} else {
-		item.style.opacity = "1";
-		item.style.pointerEvents = "all";
-	}
-
-	console.log(item)
-}
-
-*/
 var filter_btn = document.querySelectorAll('.filter-button');
 var filter_modal_all = document.querySelectorAll('.filter-pop');
 
@@ -112,5 +96,27 @@ function moreComments() {
 		section.style.height = "650px";
 	} else {
 		section.style.height = "auto";
+	}
+}
+
+
+
+
+
+/* open user info in profile page */
+
+var userInfo = document.getElementById('user-info');
+var userInfoP = document.getElementById('user-info-p');
+
+
+function openUserInfo(span) {
+	if (userInfo.style.height === "auto" && userInfoP.style.height === "auto") {
+		userInfo.style.height = "200px";
+		userInfoP.style.height = "140px";
+		span.innerText = "Daha fazla...";	
+	} else {
+		userInfo.style.height = "auto";
+		userInfoP.style.height = "auto";
+		span.innerText = "Daha az...";
 	}
 }
