@@ -429,19 +429,21 @@ section.design-ideas .big-image {
 	margin-top: 20px;
 	border-radius: 5px;
 	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
 }
 
 section.design-ideas .big-image > img {
-	width: 100%;
-	height: 420px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 15px rgba(0,0,0,.1);
 }
 
 section.design-ideas .big-image .big-img-overlay {
 	width: 100%;
-	height: 100%;
+	height: 60%;
 	position: absolute;
 	bottom: 0;
 	background: -moz-linear-gradient(bottom,  rgba(0,0,0,0.86) 0%, rgba(125,185,232,0) 100%);
@@ -487,7 +489,11 @@ section.design-ideas .gallery {
 
 section.design-ideas .gallery .gallery-img {
 	position: relative;
+	height: auto;
+	display: flex;
+	flex-direction: column;
 }
+
 
 section.design-ideas .gallery .gallery-img:hover .gallery-img-overlay {
 	display: flex;
@@ -499,7 +505,7 @@ section.design-ideas .gallery .gallery-img .gallery-img-overlay {
 	width: 100%;
 	height: 50%;
 	position: absolute;
-	bottom: 0;
+	bottom: 32px;
 	background: -moz-linear-gradient(bottom,  rgba(0,0,0,0.76) 0%, rgba(125,185,232,0) 100%);
 	background: -webkit-linear-gradient(bottom,  rgba(0,0,0,0.76) 0%,rgba(125,185,232,0) 100%);
 	background: linear-gradient(to top,  rgba(0,0,0,0.76) 0%,rgba(125,185,232,0) 100%);
@@ -511,7 +517,7 @@ section.design-ideas .gallery .gallery-img .gallery-img-overlay {
 	border-radius: 0px 0px 5px 5px;
 }
 
-section.design-ideas .gallery .gallery-img img {
+section.design-ideas .gallery .gallery-img > img {
 	width: 320px;
 	height: 230px;
 	margin-top: 30px;
@@ -537,6 +543,46 @@ section.design-ideas .gallery .gallery-img .gallery-img-overlay p > b {
 	font-weight: var(--medium);
 	color: #FFD982;
 }
+
+
+
+
+.index-gallery-bottom {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	margin: 5px 0;
+	background: none;
+}
+
+.index-gallery-bottom img {
+	border-radius: 50%;
+}
+
+.index-gallery-bottom> a {
+	font-size: 14px;
+	font-family: 'nunito-bold';
+	color: #363732;
+	margin-left: 10px;
+}
+
+.index-gallery-bottom .index-gallery-buttons {
+	margin-left: auto;
+}
+
+.index-gallery-bottom .index-gallery-buttons button {
+	background: none;
+	border: none;
+	color: #555;
+	font-size: 12px;
+	font-family: 'nunito-bold';
+}
+
+
+
+
+
 
 
 
@@ -1548,8 +1594,8 @@ label.login-container {
 		justify-content: center;
 	}
 
-	section.design-ideas .gallery .gallery-img img {
-		width: 320px;
+	section.design-ideas .gallery .gallery-img > img {
+		width: 100%;
 		height: 230px;
 		margin-top: 30px;
 		border-radius: 5px;
