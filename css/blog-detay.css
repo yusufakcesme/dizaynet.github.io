@@ -67,6 +67,12 @@ article .blog-info {
 article .blog-info span {
 	color: #8d8d8d;
 	font-style: italic;
+	display: flex;
+	align-items: center;
+}
+
+article .blog-info span > img {
+	margin-right: 5px;
 }
 
 article .blog-info span > a {
@@ -350,7 +356,23 @@ span.like-comment > i {
 }
 
 
+.begen-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
 
+.begen-btn button {
+	width: 60px;
+	height: 60px;
+	background-color: #3A3A39;
+	border-radius: 50%;
+	border: none;
+	color: #f6f6f6;
+	font-size: 30px;
+	cursor: pointer;
+}
 
 
 

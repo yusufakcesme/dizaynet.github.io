@@ -4,28 +4,41 @@ email: yusufakcesme0@gmail.com
 website: https://yusufakcesme.com
 
 
-1) Blog için margine uyulacak.  XXXXXXXXXXXXXXXXXXXXXX
-2) 4'lü, 20% küçült.            XXXXXXXXXXXXXXXXXXXXXX
-3) etikeler yap, türkçeleştir.  XXXXXXXXXXXXXXXXXXXXXX
-4)  sayfalama yap
+1) profesyoneller behance kişiler, foto 3 olabilir   XXXXXXXXXXXXXXXXXXXXXXXX
+2) prof. çerçeve açık sarı ve ince        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+3) araçlar ekle							  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+4) takip et ve ad soyad, title küçült     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-5) 20% prof                     XXXXXXXXXXXXXXXXXXXXXX
-6) proje başlat yuvarlak açık sarı  XXXXXXXXXXXXXXXXXXXXXX
-7) beğeni ve görülme font küçült, takip et 15px   XXXXXXXXXXXXXXXXXXXXXX
+TASARIM
+3) https://www.behance.net/galleries tasarim sayfası böyle olacak 
+4) button çerçeve açık sarı, altına <hr>  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+5) mimari üste çıkacak tasarim sayfasında XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+BLOG
+1)blog yazı karakter sınırla 1 satır      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2) comment yanına beğeni ekle             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+3)pagination font küçült 1 px ok sağa doğru sadece  XXXXXXXXXXXXXXXXXXXXXXXXX
+4) fotolar ve margin tasarim sayfasıyla aynı        XXXXXXXXXXXXXXXXXXXXXXXXX
+
+BLOG DETAY 
+1) içerik uzat biraz                      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2) yazının altında beğen olacak           XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+3) kevin yanına profil foto               XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
-8) medya ekleme büyük               XXXXXXXXXXXXXXXXXXXXXX
-9) roboto medium                    XXXXXXXXXXXXXXXXXXXXXX
 
-10) index header coco small caps    XXXXXXXXXXXXXXXXXXXXXX
-11) search lightfont nunito light   XXXXXXXXXXXXXXXXXXXXXX
-	
-12) index gallery overlay       XXXXXXXXXXXXXXXXXXXXXX
-13) pi stoll margin             XXXXXXXXXXXXXXXXXXXXXX
-14) index blog tek sıra 4'lü    XXXXXXXXXXXXXXXXXXXXXX
 
-15) behance filter
-16) blog detay yorum            XXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+
 
 
 ----------------------------------------------------------*/
@@ -110,8 +123,6 @@ header {
 	justify-content: space-between;
 }
 
-header .logo {
-}
 
 header .logo h1 a {
 	font-size: 32px;

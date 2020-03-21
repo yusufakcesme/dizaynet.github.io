@@ -120,3 +120,13 @@ function openUserInfo(span) {
 		span.innerText = "Daha az...";
 	}
 }
+
+
+
+/* like blog post button in blog-detay page */
+
+var begen_btn = document.getElementById('begen-btn');
+
+function likeBlogPost() {
+	begen_btn.style.backgroundColor = "#AA7C13";
+}
