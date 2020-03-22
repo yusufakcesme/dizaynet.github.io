@@ -316,7 +316,7 @@ section.design-competition .card-container {
 	margin: 30px auto;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
@@ -591,7 +591,7 @@ section.crew .profiles {
 	justify-content: space-between;
 }
 
-section.crew .profiles .profile-box {
+.profile-box {
 	width: 300px;
 	height: 440px;
 	border-radius: 5px;
@@ -605,19 +605,19 @@ section.crew .profiles .profile-box {
 	background-size: cover;
 }
 
-section.crew .profiles .profile-box:nth-child(2) {
+.profile-box:nth-child(2) {
 	background-image: url("../images/3.jpg");
 }
 
-section.crew .profiles .profile-box:nth-child(3) {
+.profile-box:nth-child(3) {
 	background-image: url("../images/2.jpg");
 }
 
-section.crew .profiles .profile-box:nth-child(4) {
+.profile-box:nth-child(4) {
 	background-image: url("../images/1.jpg");
 }
 
-section.crew .profiles .profile-box .overlay {
+.profile-box .overlay {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,.45);
@@ -627,7 +627,7 @@ section.crew .profiles .profile-box .overlay {
 	justify-content: flex-end;
 }
 
-section.crew .profiles .profile-box .overlay img.profile-foto {
+.profile-box .overlay img.profile-foto {
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
@@ -635,26 +635,26 @@ section.crew .profiles .profile-box .overlay img.profile-foto {
 	border: 4px solid #FFD982;
 }
 
-section.crew .profiles .profile-box .overlay p {
+.profile-box .overlay p {
 	font-size: 20px;
 	font-weight: var(--bold);
 	color: #fff;
 	margin-bottom: 5px;
 }
-section.crew .profiles .profile-box .overlay img {
+.profile-box .overlay img {
 	margin-bottom: 20px;
 	width: 154px;
 	height: 22px;
 }
 
-section.crew .profiles .profile-box .overlay span {
+.profile-box .overlay span {
 	font-size: 14px;
 	font-weight: var(--light);
 	color: #fff;
 	margin-bottom: 5px;
 }
 
-section.crew .profiles .profile-box .overlay a {
+.profile-box .overlay a {
 	width: 120px;
 	height: 36px;
 	border-radius: 18px;
@@ -668,7 +668,7 @@ section.crew .profiles .profile-box .overlay a {
 	margin-bottom: 24px;
 }
 
-section.crew .profiles .profile-box .overlay a:hover {
+.profile-box .overlay a:hover {
 	transition: .3s;
 	background-color: #FFD982;
 	color: #fff;
@@ -1466,6 +1466,13 @@ label.login-container {
 	letter-spacing: 1px;
 }
 
+.display {
+	display: none !important;
+}
+
+
+
+
 /* responsive codes */
 
 
@@ -1599,7 +1606,7 @@ label.login-container {
 	}
 
 	section.crew .profiles .profile-box {
-		margin: 14px;
+		margin: 10px;
 	}
 
 
@@ -1730,119 +1737,20 @@ label.login-container {
 
 }
 
-
-
 @media only screen and (max-width: 900px) {
-	
-	section.crew {
-		width: 96%;
-		height: auto;
-		margin: 50px auto;
+	.display {
+		display: block !important;
+		margin-top: 20px;
+		margin-bottom: -40px;
 	}
-
 	section.crew .profiles {
-		width: 100%;
-		height: auto;
-		margin-top: 30px;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		display: none;
 	}
-
-	section.crew .profiles .profile-box {
-		width: 200px;
-		height: 300px;
-		border-radius: 5px;
-		overflow: hidden;
-		display: flex;
-		align-items: center;
-		background-image: url("../images/4.jpg");
-		/* Center and scale the image nicely */
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	section.crew .profiles .profile-box .overlay img.profile-foto {
-		width: 70px;
-		height: 70px;
-		border-radius: 50%;
-		box-shadow: 0px 5px 15px rgba(0,0,0,.53);
-		border: 2px solid #FFD982;
-	}
-
-}
-
-
-
-@media only screen and (max-width: 490px) {
-	section.crew .profiles .profile-box {
-		width: 150px;
-		height: 250px;
-		border-radius: 5px;
-		overflow: hidden;
-		display: flex;
-		align-items: center;
-		background-image: url("../images/4.jpg");
-		/* Center and scale the image nicely */
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	section.crew .profiles .profile-box .overlay img.profile-foto {
-		width: 50px;
-		height: 50px;
-		border-radius: 50%;
-		box-shadow: 0px 5px 15px rgba(0,0,0,.53);
-		border: 2px solid #FFD982;
-	}
-
-
-	section.crew .profiles .profile-box .overlay p {
-		font-size: 15px;
-		font-weight: var(--bold);
-		color: #fff;
-		margin-bottom: 5px;
-	}
-	section.crew .profiles .profile-box .overlay img {
-		margin-bottom: 10px;
-		width: 154px;
-		height: 22px;
-	}
-
-	section.crew .profiles .profile-box .overlay span {
-		font-size: 12px;
-		font-weight: var(--light);
-		color: #fff;
-		margin-bottom: 5px;
-	}
-
-	section.crew .profiles .profile-box .overlay a {
-		width: 90px;
-		height: 26px;
-		border-radius: 18px;
-		border: 2px solid #FFD982;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		color: #FFD982;
-		font-size: 12px;
-		font-weight: var(--regular);
-		margin-bottom: 24px;
-	}
-
-	section.crew .profiles .profile-box .overlay a:hover {
-		transition: .3s;
-		background-color: #FFD982;
-		color: #fff;
-	}
-
-	section.crew .profiles .profile-box .overlay img {
+	 img.mobile-stars {
 		margin-bottom: 20px;
-		width: 114px;
-		height: 18px;
+		width: 134px !important;
+		height: 20px !important;
 	}
-
-
 }
 
 

@@ -68,11 +68,11 @@ function openSearch() {
 
 function openMobileMenu() {
 	var mobile_menu_cont = document.getElementById('mobile-menu-cont');
-		mobile_menu_cont.style.transform = "translateX(0%)";
+	mobile_menu_cont.style.transform = "translateX(0%)";
 }
 function closeMobileMenu() {
 	var mobile_menu_cont = document.getElementById('mobile-menu-cont');
-		mobile_menu_cont.style.transform = "translateX(-100%)";
+	mobile_menu_cont.style.transform = "translateX(-100%)";
 }
 
 /* read more comment */ 
@@ -130,3 +130,18 @@ var begen_btn = document.getElementById('begen-btn');
 function likeBlogPost() {
 	begen_btn.style.backgroundColor = "#AA7C13";
 }
+
+
+
+
+$(document).ready(function(){
+	$(".owl-carousel").owlCarousel();
+});
+
+$('.owl-carousel').owlCarousel({
+	margin:20,
+	loop:false,
+	autoWidth:true,
+	items:4,
+	center: true
+})
