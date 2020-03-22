@@ -214,7 +214,7 @@ section.yarisma-ekle form .form-box .form-section .el .select-box select {
 
 }
 
-.checkboxes {
+.hl-checkboxes {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
@@ -222,7 +222,7 @@ section.yarisma-ekle form .form-box .form-section .el .select-box select {
 }
 
 
-.container {
+.hl-container {
 	display: block;
 	position: relative;
 	padding-left: 35px;
@@ -237,7 +237,7 @@ section.yarisma-ekle form .form-box .form-section .el .select-box select {
 }
 
 /* Hide the browser's default checkbox */
-.container input {
+.hl-container input {
 	position: absolute;
 	opacity: 0;
 	cursor: pointer;
@@ -246,7 +246,7 @@ section.yarisma-ekle form .form-box .form-section .el .select-box select {
 }
 
 /* Create a custom checkbox */
-.checkmark {
+.hl-checkmark {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -257,29 +257,29 @@ section.yarisma-ekle form .form-box .form-section .el .select-box select {
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+.hl-container:hover input ~ .hl-checkmark {
 	background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
+.hl-container input:checked ~ .hl-checkmark {
 	background-color: #2d2d2d;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+.hl-checkmark:after {
 	content: "";
 	position: absolute;
 	display: none;
 }
 
 /* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
+.hl-container input:checked ~ .hl-checkmark:after {
 	display: block;
 }
 
 /* Style the checkmark/indicator */
-.container .checkmark:after {
+.hl-container .hl-checkmark:after {
 	left: 5px;
 	top: 1px;
 	width: 5px;
@@ -478,4 +478,10 @@ form .submit-btn button:hover {
 		height: auto;
 		margin-left: 80px;
 	}
+
+	.hl-container {
+		margin: 5px;
+	}
+
+
 }
