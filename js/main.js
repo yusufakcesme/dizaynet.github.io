@@ -132,8 +132,7 @@ function likeBlogPost() {
 }
 
 
-
-
+/* mobile crew section */
 $(document).ready(function(){
 	$(".owl-carousel").owlCarousel();
 });
